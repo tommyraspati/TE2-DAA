@@ -42,9 +42,7 @@ public class hamiltonianPathBacktracking
                 path[pos] = -1;
             }
         }
-
-        /* If no vertex can be added to Hamiltonian Cycle
-           constructed so far, then return false */
+        
         return false;
     }
 
